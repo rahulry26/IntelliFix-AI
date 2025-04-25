@@ -1,0 +1,14 @@
+
+{
+  "alertname": "PodCrashLoopBackOff",
+  "severity": "critical",
+  "instance": "service-x.namespace.svc.cluster.local",
+  "description": "Pod crash loop detected on node-3",
+  "logs": [
+    "Error: CrashLoopBackOff",
+    "Back-off restarting failed container",
+    "Check volume mount or init container"
+  ],
+  "timestamp": "2025-04-22T10:30:00Z"
+}
+
